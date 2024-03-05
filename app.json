@@ -3,6 +3,7 @@
     "scheme": "acme",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
+    "runtimeVersion": "1.0.0",
     "web": {
       "output": "static",
       "bundler": "metro"
@@ -16,6 +17,22 @@
       ]
     ],
     "name": "mobile-app",
-    "slug": "mobile-app"
+    "slug": "testing-notifications",
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "425cf650-afed-456c-aa3e-4334f679b264"
+      }
+    },
+    "owner": "chandra_orbitshift",
+    "android": {
+      "package": "com.chandra_orbitshift.testingnotifications",
+      "permissions": ["RECEIVE_BOOT_COMPLETED"]
+    },
+    "ios": {
+      "bundleIdentifier": "orbitshift.ai.client"
+    }
   }
 }
